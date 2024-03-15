@@ -23,7 +23,12 @@ Sample Output 0
 
 Hello, World!
 
-solution : ...
+solution : 
+```
+if __name__ == '__main__':
+    print("Hello, World!")
+
+```
 
 
 
@@ -51,7 +56,7 @@ n = 24
  n > 20 and n is even, so it is not weird.
 
  solution :
- 
+ ```
 import math
 import os
 import random
@@ -70,3 +75,4 @@ if __name__ == '__main__':
         print("Weird")
     elif n >= 20:
         print("Not Weird")
+```
